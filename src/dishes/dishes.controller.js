@@ -117,7 +117,7 @@ function update(req, res) {
 function list(req, res) {
    res.status(200).json({ data: dishes });
 }
-
+ 
 module.exports = {
    create: [createValidation, create],
    read: [readValidation, read],
